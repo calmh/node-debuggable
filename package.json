@@ -1,0 +1,24 @@
+{
+  "author": "Jakob Borg <jakob@nym.se> (http://nym.se/)",
+  "name": "debuggable",
+  "description": "Listen to objects.",
+  "version": "1.0.0",
+  "main": "lib/debuggable",
+  "homepage": "https://github.com/calmh/debuggable",
+  "repository": {
+    "url": "https://github.com/calmh/debuggable.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec"
+  },
+  "dependencies": {
+    "callsite": "0.0.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.4.2",
+    "should": "~1.1.0"
+  },
+  "engines": {
+    "node": ">= 0.8.x"
+  }
+}
